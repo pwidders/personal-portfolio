@@ -32,36 +32,38 @@
     <main>
         <div class="inside-wrapper-slim">
             <h2 id="main-content-heading">Contact</h2>
-            <hr id="horizontal-bar"> 
+            <hr id="horizontal-bar-2"> 
             
-            <div class="contact-form-container">
+            <div id= "form-container"></div>
                 <form action="action_page.php">
                 
                     <div class="row">
-                        <label for="fname">Name</label>
+                        <label for="fname" id=label-name>Name</label>
                     </div>
                     <input type="text" id="fname" name="firstname" placeholder="Your name..">
                     </div>
             
                     <div class="row">
-                    <div class="form-input-row-label">
-                        <label for="fname">Email</label>
+                        <label for="fname" id=label-email>Email</label>
                     </div>
                     <div class="form-input-row">
-                        <input type="email" id="fname" name="firstname" placeholder="Your name..">
+                        <input type="email" id="fname" name="firstname" placeholder="Your email..">
                     </div> 
-               
-                    <div class="row">
-                    <div class="form-input-row-label">
-                      <label for="subject">Message</label>
-                    </div>
-                    <div class="message-box">
-                      <textarea id="Message" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-                    </div>
-                    </div>
+                    
+                    <br>
 
                     <div class="row">
+                    <div class="form-input-row-label">
+                      <label for="subject" id=label-subject>Message</label>
+                    </div>
+                    <div class="message-box">
+                      <textarea id="message" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                    </div>
+                    </div>
+                    <br>
+                    <div class="submit">
                         <input type="submit" value="Submit">
+
                 </div>     
             </div>
         </div>    
