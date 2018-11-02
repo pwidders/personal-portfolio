@@ -8,7 +8,7 @@ body {
 }
 
 .wrapper-slim {
-    width: 850px;
+    width: 800px;
     margin: 0 auto;
 }
 
@@ -55,8 +55,7 @@ header::after {
     border-right-width: 1px;
     border-bottom-style: outset;
     border-bottom-width: 1px;
-    padding-left: 5px;
-    margin-left: -9;
+    margin-left: -5px;
 }
 
 nav {
@@ -97,10 +96,12 @@ main {
     color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding-top: 10px;
+    margin-left: 18px;
 }
 
 #horizontal-bar {
     margin-bottom: 20px;
+    width: 750px;
 }
 
 #headshot {
@@ -134,10 +135,10 @@ img {
  }
 
 #gallery {
-    padding-top: -30px;
     border-spacing: 0px 40px;
 }
 
 .row {
     width: 800px;
 }
+
